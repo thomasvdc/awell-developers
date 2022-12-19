@@ -3,7 +3,9 @@ title: Get data point definitions
 description: Retrieve the data dictionary for a pathway
 ---
 
-For any given care flow/pathway a patient is included in, you might want to know what data points are captured in that pathway (i.e a data dictionary). Via the `pathwayDataPointDefinitions` query, you're able to retrieve all data points definitions for a given pathway version.
+For any given care flow/pathway a patient is included in, you might want to know what data points are captured in that pathway (i.e a data catalog). Inside the Awell Platform, you can simply navigate to the [data catalog](https://help.awellhealth.com/en/articles/4791428-data-catalog) of each care flow. 
+
+You can also query all of your data point definitions via the API. With the `pathwayDataPointDefinitions` query, you're able to retrieve all data points definitions for a given pathway version.
 
 ## Release id
 
@@ -96,7 +98,3 @@ When specifying multiple filters, the resulting criteria is the conjuction of al
 }
   `}
 </code>
-
-## How to use
-
-<HowToUse storyIds={['data-dictionary']} />
